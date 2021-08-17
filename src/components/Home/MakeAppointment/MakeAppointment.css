@@ -1,0 +1,30 @@
+
+    /* background-color: #3A4256; */
+   
+.appoint-background{
+    height: 300px;
+    padding: 0px;
+     background-image: url(../../../images/background.png); 
+    background-size: cover;
+    position: relative;
+    background-position:center;
+    z-index: -40;
+ }
+
+.appoint-background::before{
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: .8;
+    position: absolute;
+    background: rgb(36, 41, 73);
+    z-index: -20;
+}
+.container{
+    z-index: 20;
+}
+.appoint-background img{
+    height: 380px ;
+    transform: translateY(-80px);
+}

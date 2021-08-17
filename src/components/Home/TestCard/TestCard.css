@@ -1,0 +1,9 @@
+.test-card{
+    border:1px solid ;
+    padding: 5px ;
+    border-color: rgb(233, 227, 227);
+}
+.test-card img{
+    height: 50px;
+    left: 50px;
+}

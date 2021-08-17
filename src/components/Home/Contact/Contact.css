@@ -1,0 +1,28 @@
+.contact{
+    background-image: url(../../../images/background.png);
+    height: 450px;
+    background-size: cover;
+    position: relative;
+    z-index: -3;
+}
+.contact::before{
+    content:'';
+    background-color:rgb(36, 41, 73);;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+    position: absolute;
+    z-index: -1;
+}
+.contact-container{
+    z-index: 2;
+    top:60px;
+}
+.message{
+    height: 100px;
+}
+.input{
+    width: 400px;
+    margin: 8px;
+}

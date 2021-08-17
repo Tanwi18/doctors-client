@@ -1,0 +1,24 @@
+.blog-quote{
+    background-image: url(../../../images/quote.png);
+    background-repeat: no-repeat;
+    background-size: 40vh;
+    background-position: center;
+    position: relative;
+    /* border: 1px solid; */
+    height: 300px;
+    transform: translateY(10px);
+    margin-top: 5px;
+    z-index: -6;
+}
+.blog-quote::before{
+     background-image: linear-gradient(90deg, #32a73c, #19cefc); 
+    /* background-color: lawngreen; */
+    display: block;
+    position: absolute;
+     height: 80%;
+     width: 100%;   
+     content: '';
+    z-index: -3;
+    opacity: .7;
+  transform: translateX(-12px);
+} 

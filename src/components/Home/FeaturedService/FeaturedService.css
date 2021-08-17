@@ -1,0 +1,9 @@
+.featured-img{
+    height: 320px;
+    width: 285px;
+
+}
+.featured-container{
+    height: 320px;
+    position: relative;
+}

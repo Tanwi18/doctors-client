@@ -1,0 +1,9 @@
+.quote{
+    background-image: url(../../../images/quote.png);
+    background-repeat: no-repeat;
+    background-position: right;
+   background-size: 40vh;
+    opacity: .3;
+    height: 100px;
+
+}
